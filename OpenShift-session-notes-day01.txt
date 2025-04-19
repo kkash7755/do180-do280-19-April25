@@ -113,7 +113,7 @@ Default port - 6443
 ssh api.ocp4.example.com   [did not worked as of now]
 
 $ ssh root@utility.lab.example.com 
-# cd /home/lab.ocp4/auth 
+# cd /home/lab/ocp4/auth 
 # ls 
 kubeadmin-password kubeconfig 
 # scp -r kube* student@workstation:/home/student/
